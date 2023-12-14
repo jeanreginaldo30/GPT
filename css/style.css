@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "inter";
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #343541;
+   
+}
+
+#container{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-size: medium;
+
+}
+
+#centro{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#esquerdo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#direito{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#centro> h1{
+
+    font-size: medium 15;
+    color: #ffffff;
+    
+}
+
+#centro> h2{
+
+    font-size: medium 15;
+    color: #FFFFFF;
+}
+
+.btn-login{
+
+  
+    background:#0FA47F;
+    width:66px;
+    height:38px;
+    font-size:medium 14;
+    border-radius:4;
+    color: #FFFFFF;
+    cursor:pointer;
+    align-items: center;
+   
+}
+
+.btn-signup{
+
+  
+    background:#0FA47F;
+    width:75px;
+    height:28px;
+    font-size:medium 14;
+    border-radius: 4;
+    color:#FFFFFF ;
+    cursor:pointer;
+}
+
+
+.img{
+    max-height:39px;
+    min-height:39.9px;
+}
